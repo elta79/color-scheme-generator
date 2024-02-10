@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+button{    
+    border: none;  
+    padding: 8px 24px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: rgb(120, 120, 122) ;
+    color: white;
+}
+.scheme-mode{
+    padding-left:20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.container-choice{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: black;
+    padding: 20px 0;
+}
+.color-picker{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+.color-picker:hover{
+    height: 65px;
+    width: 65px;
+    border: 3px solid white;
+}
+.scheme-mode{
+    width: 50%;    
+}
+.color-box{
+    background-color: none;   
+}
+.hex-box, .color-box{    
+    margin:auto;
+    padding:0;
+    display: flex;
+    justify-content: stretch;   
+}
+.hex-box{
+    justify-content: space-between;
+}
+ .hex-code {
+    width:100%;
+    text-align: center;
+    padding: 10px 0;    
+}
+.color-code {
+    height: 500px;
+    width: 100%;
+} 
+
+.hidden{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
